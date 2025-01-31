@@ -1,0 +1,26 @@
+.ProgressBar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 30px;
+    width: 50%;
+    background-color: gray;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.3);
+}
+
+.ProgressBarActualValue{
+    height: 100%;
+    background-color: red;
+    transition: 0.1s ease-in-out;
+
+}
+
+.ProgressBarNumericValue{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: wheat;
+    font-weight: bold;
+}
